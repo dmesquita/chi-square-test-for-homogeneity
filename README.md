@@ -1,8 +1,11 @@
 # Chi-square test for homogeneity
 
-This code uses the [gitter-history dataset from freeCodeCamp open data](https://github.com/freeCodeCamp/open-data/tree/master/gitter-history) to answer this question: **is there a different mention pattern in  different cities?** 
+This code uses the [gitter-history dataset from freeCodeCamp open data](https://github.com/freeCodeCamp/open-data/tree/master/gitter-history) to answer this question: **is there a different mention pattern in  the chat-rooms?** 
 
 To extract the mentions we use the Matcher class from spaCy and for the chi-square test we use R.
+
+The sample has all messages from the San Francisco, Toronto, Boston, 
+Belgrade, London and Sao Paulo sent between 2015–08–16 and 2016–08–16  (one year of messages).
 ## Files
 | File | Description |
 |--|--|
